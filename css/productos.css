@@ -1,0 +1,79 @@
+.productos{
+    width: 100%
+}
+.titulo_carta{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #d30203;
+    font-size: 40px;
+}
+.titulo_carta:after{
+    display: block;
+    content: '';
+    width: 200px;
+    height: 4px;
+    background: #d30203;
+    margin: 0auto;
+    margin-top: 20px;
+}
+.carta{
+    width: 100%
+}
+.img_carta{
+    width: 100%
+}
+.carta_titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #d30203;
+}
+.texto_carta{
+    margin:10px;
+}
+.comprar{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 150px;
+    background: #d30203;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.comprar:hover{
+    background: crimson;
+}
+
+@media screen and (min-width:768px){
+    .carta{
+        width: 50%;
+        
+       } 
+    }
+    @media screen and (min-width:1024px){
+    .carta{
+        width: 25%;
+        margin: 10px;
+    }
+    .productos{
+        align-items: flex-start;
+        }
+        .modificador{
+            width: 1000px;
+        }
+}
+    @media screen and (min-width:1600px){
+        .modificador{
+            width:1400px;
+        }
+    }
